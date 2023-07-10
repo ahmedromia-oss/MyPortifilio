@@ -1,0 +1,47 @@
+#SkillsTap ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-size: 90%;
+    font-family: QatarWCFont;
+}
+
+
+
+#SkillsTap{
+    background-color: transparent;
+    position: absolute;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    flex-direction: column;
+    width: 80%;
+    margin-inline: 10%;
+}
+
+#SkillsTap ul li::after{
+    
+    position: absolute;
+    background-image:linear-gradient(to right , orange 80% , white 80%, white 100%);
+    content: "";
+    margin-top: 0.6%;
+    right:2%;
+    width: 30%;
+    height: 1%;
+}
+.Fifty::after{
+    background-image:linear-gradient(to right , orange 50% , white 50%, white 100%) !important;
+    
+}
+.Sixty::after{
+    background-image:linear-gradient(to right , orange 60% , white 60%, white 100%) !important;
+    
+}
+.Seventy::after{
+    background-image:linear-gradient(to right , orange 70% , white 70%, white 100%) !important;
+    
+}

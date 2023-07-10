@@ -1,0 +1,33 @@
+/* @font-face {
+    font-family:QatarWCFont ;
+    src: url(Qatar2022Arabic-Bold.ttf);
+} */
+#PersonalInformation{
+    /* background-color: blue; */
+    border: solid 3px orange;
+    border-top:transparent ;
+    border-bottom:transparent ;
+    border-radius: 2%;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    width: 50%;
+    padding-inline:15%;
+    flex-direction: column;
+    justify-content:space-evenly;
+    /* justify-items: center; */
+    font-family:QatarWCFont ;
+}
+
+#PersonalInformation span{
+    color: orange;
+    padding: 1%;
+    height: 50%;
+    font-family:QatarWCFont ;
+}
+#PersonalInformation p{
+    color: white;
+ 
+    
+}
